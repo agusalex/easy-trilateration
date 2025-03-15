@@ -96,8 +96,8 @@ def distance(row_i):
     else:
         return rssi_to_distance(row_i['rssi'])
 
-
-def rssi_to_distance(rssi, a=36, n=27):
+# a=16.78, n=37.63 simulation
+def rssi_to_distance(rssi, a=16.78, n=37.63):
     return 10 ** (-1 * (rssi + a) / n)
 
 
