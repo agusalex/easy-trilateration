@@ -1,6 +1,6 @@
 
 # easy-trilateration
-Trilateration example using least squares method in scipy (Graphing tools included).
+Multilateration python library https://pypi.org/project/easy-trilateration/ using least squares method from scipy (Graphing tools included).
 
 ![](https://github.com/agusalex/easy-trilateration/blob/master/images/img2.png?raw=true)
 
